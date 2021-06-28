@@ -13,6 +13,7 @@
 		CEE8888D2685D979003D511F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8888B2685D979003D511F /* Main.storyboard */; };
 		CEE8888F2685D97A003D511F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE8888E2685D97A003D511F /* Assets.xcassets */; };
 		CEE888922685D97A003D511F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE888902685D97A003D511F /* LaunchScreen.storyboard */; };
+		CEE8889A268848F5003D511F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE88899268848F5003D511F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEE8888E2685D97A003D511F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE888912685D97A003D511F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE888932685D97A003D511F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE88899268848F5003D511F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CEE888872685D979003D511F /* SceneDelegate.swift */,
 				CEE888892685D979003D511F /* ViewController.swift */,
 				CEE8888B2685D979003D511F /* Main.storyboard */,
+				CEE88899268848F5003D511F /* ResultViewController.swift */,
 				CEE8888E2685D97A003D511F /* Assets.xcassets */,
 				CEE888902685D97A003D511F /* LaunchScreen.storyboard */,
 				CEE888932685D97A003D511F /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE8888A2685D979003D511F /* ViewController.swift in Sources */,
+				CEE8889A268848F5003D511F /* ResultViewController.swift in Sources */,
 				CEE888862685D979003D511F /* AppDelegate.swift in Sources */,
 				CEE888882685D979003D511F /* SceneDelegate.swift in Sources */,
 			);

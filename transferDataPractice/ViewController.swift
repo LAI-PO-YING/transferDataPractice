@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBSegueAction func showResault(_ coder: NSCoder, sender: UIButton, segueIdentifier: String?) -> ResultViewController? {
+        let controller = ResultViewController(coder: coder)
+        controller?.resultIndex = sender.tag
+        return controller
+    }
+    
 }
 
